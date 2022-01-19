@@ -53,7 +53,7 @@ get_avg(score)
 중복되는 물품은 합쳐서 표시하세요.
 각 딕셔너리 데이터의 데이터의 키값을 이용해 중복을 확인해보세요.
 
-from collections import Counter       #collections.Counter 사용 (value가 모두 int형일 경우)
+from collections import Counter       #collections.Counter 사용 (value가 모두 int형일 경우일 때만 Counter 사용가능)
 dict_first=Counter({'사과':30, '배':15, '감':10, '포도':10})
 dict_second=Counter({'사과':5, '감':25, '배':15, '귤':25})
 
